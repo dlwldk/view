@@ -14,8 +14,7 @@ class UpdateContent extends Component {
       this.setState({[e.target.name]: e.target.value});
     }
     render() {
-      console.log("updaterenders")
-      console.log(this.props.data);
+      console.log("update renders");
       return (
         <article>
               <h2>Update</h2>
